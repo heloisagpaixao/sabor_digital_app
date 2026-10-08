@@ -15,8 +15,9 @@ import RegisterModal from "../components/RegisterModal";
 import ProductFormModal from "../components/ProductFormModal";
 import ConfirmModal from "../components/ConfirmModal";
 import Button from "../components/Button";
+import { colors } from "../theme";
 import { useAuth } from "../context/AuthContext";
-import { api } from '../services/api';
+import { api } from "../api";
 
 export default function HomeScreen() {
   const { user, isAdmin, restoring, logout } = useAuth();

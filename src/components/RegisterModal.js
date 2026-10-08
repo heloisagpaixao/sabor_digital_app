@@ -3,7 +3,7 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import BaseModal from './BaseModal';
 import Field from './Field';
 import Button from './Button';
-import { useAuth } from '../src/context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 import { colors, radius } from '../theme';
 
 export default function RegisterModal({ visible, onClose, onGoToLogin }) {
