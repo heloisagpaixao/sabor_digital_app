@@ -5,7 +5,7 @@ const upload = require("../config/multer");
 const {
   verificarToken,
   verificarAdmin,
-} = require("../middlewares/authMiddleware");
+} = require("../middleware/authMiddleware");
 
 router.get("/", ProdutoController.listar);
 router.get("/:id", ProdutoController.buscarPorId);
